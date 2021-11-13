@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div class="mcc_section">
                   <div className="text mission invest">
-                  <div class="sponsoricon"><img src="/img/about/Payment.png" alt="donationicon"/><h3>Invest & Grow with Us </h3></div>
+                  <div class="sponsoricon"><img src="./img/about/Payment.png" alt="donationicon"/><h3>Invest & Grow with Us </h3></div>
                                       <p class="sponsortagline">
                         Make a donation of $150 to support our team.  </p><p class="sponsorbody">Becoming a team sponsor is an excellent opportunity for advertisement.
                         It shows the community that your business is willing to invest in kids.</p><p class="sponsorbutton">
