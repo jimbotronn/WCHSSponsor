@@ -95,7 +95,7 @@ const Home = () => {
           <div className="shoeBackground">
             <Gradients />
 
-            <h1 className="nike">GoPro</h1>
+            <h1 className="nike"></h1>
             <img src={logo} alt="logo" className="productlogo" />
             <a href="/#" className="share">
               <i className="fas fa-share-alt"></i>

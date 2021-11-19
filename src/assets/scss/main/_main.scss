@@ -8,11 +8,13 @@
 }
 
 .card {
+  @media screen and (max-width: 480px) {
+    width:100%;
   @include fc;
   width: 55vw;
     position: inherit;
     z-index: 1;
-
+    }
 
   .nike {
     color: white;

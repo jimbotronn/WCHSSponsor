@@ -10,7 +10,7 @@
   }
   .card {
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.2);
     & > div {
       width: 100%;
@@ -26,6 +26,7 @@
     .nike {
       top: 20%;
       left: 5%;
+      font-size:6rem;
     }
   }
 }

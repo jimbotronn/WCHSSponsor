@@ -24,7 +24,7 @@ const SkillsTwo = () => {
         
         <div className="container donation_container">
         <div className="shane_tm_title donation_right">
-                <div className="title_flex">
+                <div className="title_flex title_campaign">
                   <div className="right dl_right">
                     <span>About This Campaign</span>
                     <p>         Your donation will allow Westerville Central Boys Volleyball program

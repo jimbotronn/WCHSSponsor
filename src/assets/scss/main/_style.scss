@@ -89,6 +89,9 @@ img.svg {
   padding: 0px 40px;
   position: relative;
   clear: both;
+  @media screen and (max-width: 1040px) {
+    padding-right:0 !important;
+  }
   @media screen and (max-width: 767px) {
     padding: 0 15px;
   }
@@ -582,15 +585,14 @@ h6 {
   position: relative;
   overflow: hidden;
   @media screen and (max-width: 1040px) {
-    height: 60vh;
+    height: 90vh;
+    padding-right:0 !important;
   }
   @media screen and (max-width: 767px) {
     height: auto;
     padding: 240px 0;
   }
-  .container {
-    position: static;
-  }
+
 }
 .slider-four {
   .shane_tm_hero {
@@ -1882,6 +1884,10 @@ body.modal {
   transition: all 0.5s cubic-bezier(0, 0, 0.1, 1);
   cursor: pointer;
   font-size: 16px;
+  @media screen and (max-width: 1040px) {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
   @media screen and (max-width: 767px) {
     padding: 10px 25px;
     font-size: 15px;
@@ -2859,6 +2865,10 @@ body.dark .shane_tm_settings .cursor li .svg,
     flex-direction: column;
     align-items: flex-start;
   }
+  .shane_tm_title .title_campaign {
+    flex-direction: column;
+    align-items: center;
+  }
   .shane_tm_title .portfolio_filter {
     padding-top: 78px;
   }
@@ -2945,16 +2955,7 @@ body.dark .shane_tm_settings .cursor li .svg,
   }
   .shane_tm_hero {
     position: relative;
-    &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-      z-index: 1;
-    }
+
   }
   .shane_tm_hero .background {
     width: 100%;
@@ -2986,6 +2987,12 @@ body.dark .shane_tm_settings .cursor li .svg,
     padding-left: 0px;
   }
 }
+@media (max-width: 480px) {
+.card{
+  width:100%;
+}
+}
+
 
 body.intro #preloader:before,
 body.intro #preloader:after {
@@ -3270,7 +3277,7 @@ body.intro .loader_line:after {
   font-weight: 800;
   @media screen and (max-width: 1040px) {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
   }
   @media screen and (max-width: 768px) {
     font-size: 19px;
@@ -3362,6 +3369,9 @@ body.intro .loader_line:after {
   padding-bottom: 25px;
   width: 70%;
   float: right;
+  @media screen and (max-width: 480px) {
+    width:100%;
+  }
 }
 
 
@@ -3422,7 +3432,12 @@ body.intro .loader_line:after {
     flex: 45 0 0;
     width: 40%;
     position: absolute;
-    z-index:2
+    z-index:2;
+    @media screen and (max-width: 480px) {
+      position:relative;
+      width:100%;
+    }
+
 }
 
 .innersquare img {
@@ -3534,10 +3549,25 @@ li.item {
 
 .dl_left {
   width: 100% !important;
+  @media screen and (max-width: 768px) {
+    width: 80vw !important;
+    margin-left: 10vw;
+   }
+   @media screen and (max-width: 480px) {
+    width: 80vw !important;
+    margin-left:5vw;
+   }
+
 }
 
 .dl_right {
-  width: 100% !important;
+  width: 80% !important; 
+  @media screen and (max-width: 1024px) {
+    width: 80% !important; 
+   }
+   @media screen and (max-width: 480px) {
+    display:none;
+   }
 }
 
 .dl_right p {
