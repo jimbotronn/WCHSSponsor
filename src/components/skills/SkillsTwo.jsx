@@ -27,15 +27,13 @@ const SkillsTwo = () => {
                 <div className="title_flex title_campaign">
                   <div className="right dl_right">
                     <span>About This Campaign</span>
-                    <p>         Your donation will allow Westerville Central Boys Volleyball program
-                         provide an energetic, healthy, and competitive team environment to continue
-                         our growth and success for years to come, creating the opportunity for 
-                         more student-athletes to discover their potential in boys volleyball  </p><br></br><p>
+                    <p>
                          We set up everything through Givebutter, a non-profit fundraising platform.  
                          All transactions are secured and processed through Givebutter's partnership 
                          with Stripe.</p><br></br><p>
                          As always, your donations are tax deductible.  Upon completing the donation 
                          transaction, you will receive an automatic receipt. </p><br></br>
+                         <p>Tips for Givebutter is optional.  You may change the tip for Givebutter to <b>Others</b> then enter <b>$0</b> if you do not wish to tip </p>
                          <br></br><br></br>   
                          <a href="mailto:warhawksmvb@gmail.com" className="white-fill-bg btn-outline btn-medium" >
                          Contact Us
