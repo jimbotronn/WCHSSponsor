@@ -3433,9 +3433,9 @@ body.intro .loader_line:after {
     width: 40%;
     position: absolute;
     z-index:2;
-    @media screen and (max-width: 480px) {
-      position:relative;
-      width:100%;
+    @media screen and (max-width: 485px) {
+      position:relative !important;
+      width:80% !important;
     }
 
 }
@@ -3923,7 +3923,17 @@ background-color:#2f8884 !important;
 	-o-transition: all 0.3s ease-in-out 0s;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 }
-@media (max-width: 320px) {
+@media (max-width: 500px) {
+  .slider-four{
+    position:relative !important;
+    width:80% !important;
+  }
+  .card{
+    width:100%;
+  }
+  .shane_tm_portfolio_mod{
+    width:100%;
+  }
 }
 
 @media (max-width: 767px) {

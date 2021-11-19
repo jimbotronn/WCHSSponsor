@@ -77,7 +77,7 @@ const Home = () => {
           <div className="productBackground productBackgroundmod">
             <Gradients />
 
-            <h1 className="nike">GoPro</h1>
+            <h1 className="nike"></h1>
 
 
             <ProductImages />
