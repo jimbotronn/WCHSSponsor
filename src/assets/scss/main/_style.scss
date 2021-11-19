@@ -3530,6 +3530,10 @@ li.item {
   @media screen and (max-width: 768px) {
     display: block;
    }
+   @media screen and (max-width: 485px) {
+    display: flex;
+    flex-direction: column-reverse;
+   }
 }
 
 .donation_right {
@@ -3934,6 +3938,16 @@ background-color:#2f8884 !important;
   .shane_tm_portfolio_mod{
     width:100%;
   }
+  .portfolio_list.left.dl_left {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.right.dl_right {
+  width: 90% !important;
+}
+.title_flex.title_campaign {
+  width: 90%;
+}
 }
 
 @media (max-width: 767px) {
