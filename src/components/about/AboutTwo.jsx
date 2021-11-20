@@ -31,7 +31,7 @@ Become Our Sponsor Today
                    <div className="text challenge"><p>
                         <ul>
                           <li><b><p className="highlighttext">Sponsor Hub</p></b><p class="sponsorbody">A dedicated page to recognize our sponsors. It will be available from 2/1/22 - 5/31/22.  
-                          We will actively promote it to students and families of the school. We will notify you when the page goes live.</p></li>
+                          We will actively promote it to all students and families of the school. We will notify you when the page goes live.</p></li>
                           <li><b><p className="highlighttext">Home Game Tickets</p></b><p class="sponsorbody">We will display logos of our sponsors on our ticket page and promote Sponsor Hub to the purchasers.</p> </li>
                           <li><b><p className="highlighttext">Practice Shirts</p></b><p class="sponsorbody">Our players will receive practice shirts with logos of our sponsors on the back of the shirts. </p></li>
                         </ul> 

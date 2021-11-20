@@ -15,8 +15,8 @@ const Info = () => {
     <div className="description">
       <h3 className="title"></h3>
       <p className="text">
-        We are creating a digital sponsor hub to connect our business sponsors with our friends, families, and fans <br></br><br></br>
-        Business sponsors can leverage our digital resources to <b>increase brand exposure</b> or <b>provide limited time offers</b>.
+        We are creating a digital community sponsor hub to connect our business sponsors with our friends, families, and fans <br></br><br></br>
+        Think of it as an <u>online farmer's market</u>.  We will help you setup your space, so you can leverage our digital resources to <b>increase brand exposure</b> and/or <b>provide limited time offers</b>.
       </p>
     </div>
   );
