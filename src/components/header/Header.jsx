@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../SocialTwo";
 import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -37,9 +38,10 @@ const Header = () => {
               currentClassName="current"
               offset={-200}
             >
-
-              <a className="white-fill-bg btn-outline btn_sm btn_gap" href="#donate">Become A Sponsor
-            </a>
+              <HashLink className="white-fill-bg btn-outline btn_sm btn_gap" smooth to="/#donate">
+              Become A Sponsor
+              </HashLink>
+           
             </Scrollspy>
           </div>
           {/* End menu */}
@@ -83,8 +85,10 @@ const Header = () => {
             </span>
             <div className="dropdown_inner">
               <ul className="anchor_nav">
-              <a className="white-fill-bg btn-outline btn_sm btn_gap" href="#donate">Become A Sponsor
-            </a>
+              <HashLink className="white-fill-bg btn-outline btn_sm btn_gap" smooth to="/#donate">
+              Become A Sponsor
+              </HashLink>
+       
  
               </ul>
               <div className="social-menu">

@@ -38,7 +38,7 @@ const Header = () => {
               offset={-200}
             >
 
-              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#donate">Sponsor Us
+              <a className="white-fill-bg btn-outline btn_sm btn_gap2" href="#instruction">Sponsor Us
             </a>
             </Scrollspy>
           </div>
