@@ -44,7 +44,7 @@ const SkillsTwo = () => {
                    <div className="portfolio_filter donation_left">
                   <div className="portfolio_list left dl_left">
                     <br></br>
-                  <p className="importanttext1">* On the payment page, tips for Givebutter is optional.  By displaying the message, Givebutter allows us to utilitze its services free of charge. 
+                  <p className="importanttext1">* On the payment page, <span className="importanttext"><b>tips for Givebutter is optional.</b></span>  By displaying the message, Givebutter allows us to utilitze its services free of charge. 
                   You may change the amount to <b>Others</b> then enter <b>$0</b> before completing the transaction. </p><br></br>
                       <Reveal effect="fadeInLeft">
                         <Iframe url="https://givebutter.com/embed/c/wcvolleyballsponsor"
