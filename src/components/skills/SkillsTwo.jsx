@@ -33,8 +33,7 @@ const SkillsTwo = () => {
                          with Stripe.</p><br></br><p>
                          As always, your donations are tax deductible.  Upon completing the donation 
                          transaction, you will receive an automatic receipt. </p><br></br>
-                         <p className="importanttext">On the payment page, tips for Givebutter is optional.  You may change the tip for Givebutter to <b>Others</b> then enter <b>$0</b> if you do not wish to tip </p>
-                         <br></br><br></br>   
+                         <br></br><p>Feel free to contact us if you have any questions or run into any issues</p><br></br>   
                          <a href="mailto:warhawksmvb@gmail.com" className="white-fill-bg btn-outline btn-medium" >
                          Contact Us
                     </a>
@@ -44,7 +43,9 @@ const SkillsTwo = () => {
               </div>
                    <div className="portfolio_filter donation_left">
                   <div className="portfolio_list left dl_left">
-              
+                    <br></br>
+                  <p className="importanttext1">* On the payment page, tips for Givebutter is optional.  By displaying the message, Givebutter allows us to utilitze its services free of charge. 
+                  You may change the amount to <b>Others</b> then enter <b>$0</b> before completing the transaction. </p><br></br>
                       <Reveal effect="fadeInLeft">
                         <Iframe url="https://givebutter.com/embed/c/wcvolleyballsponsor"
                           width="100%"
