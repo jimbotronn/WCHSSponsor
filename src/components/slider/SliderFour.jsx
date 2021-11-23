@@ -39,7 +39,7 @@ const Slider = () => {
               <h2>            
                 <span className="loop-text">
                 Become a sponsor of our team &
-                grow your bussiness through our  <span className="highlighttext">sponsor hub</span>               
+                grow your business through our  <span className="highlighttext">sponsor hub</span>               
               </span></h2>
 
             </div>
